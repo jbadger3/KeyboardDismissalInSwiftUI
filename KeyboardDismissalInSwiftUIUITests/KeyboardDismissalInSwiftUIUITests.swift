@@ -1,13 +1,13 @@
 //
-//  ExploringKeyboardDismissalUITests.swift
-//  ExploringKeyboardDismissalUITests
+//  KeyboardDismissalInSwiftUIUITests.swift
+//  KeyboardDismissalInSwiftUIUITests
 //
-//  Created by Jonathan Badger on 11/3/20.
+//  Created by Jonathan Badger on 11/11/20.
 //
 
 import XCTest
 
-class ExploringKeyboardDismissalUITests: XCTestCase {
+class KeyboardDismissalInSwiftUIUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

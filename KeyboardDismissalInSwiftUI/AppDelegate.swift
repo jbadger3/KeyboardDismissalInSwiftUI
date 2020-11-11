@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ExploringKeyboardDismissal
+//  KeyboardDismissalInSwiftUI
 //
-//  Created by Jonathan Badger on 11/3/20.
+//  Created by Jonathan Badger on 11/11/20.
 //
 
 import UIKit

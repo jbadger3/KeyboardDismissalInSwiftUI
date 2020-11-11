@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5B1DD4255C41A50008943C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1DD3255C41A50008943C /* AppDelegate.swift */; };
+		FC5B1DD6255C41A50008943C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1DD5255C41A50008943C /* SceneDelegate.swift */; };
+		FC5B1DDA255C41A60008943C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5B1DD9255C41A60008943C /* Assets.xcassets */; };
+		FC5B1DDD255C41A60008943C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5B1DDC255C41A60008943C /* Preview Assets.xcassets */; };
+		FC5B1DE0255C41A60008943C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5B1DDE255C41A60008943C /* LaunchScreen.storyboard */; };
+		FC5B1DEB255C41A70008943C /* KeyboardDismissalInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1DEA255C41A70008943C /* KeyboardDismissalInSwiftUITests.swift */; };
+		FC5B1DF6255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1DF5255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.swift */; };
+		FC5B1E12255C42C50008943C /* UIApplication+addTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E10255C42C50008943C /* UIApplication+addTapGestureRecognizer.swift */; };
+		FC5B1E13255C42C50008943C /* View+hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E11255C42C50008943C /* View+hideKeyboard.swift */; };
+		FC5B1E18255C42D40008943C /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E17255C42D40008943C /* AppTabView.swift */; };
+		FC5B1E1F255C42E60008943C /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E1C255C42E60008943C /* FormView.swift */; };
+		FC5B1E20255C42E60008943C /* FormViewFix1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E1D255C42E60008943C /* FormViewFix1.swift */; };
+		FC5B1E21255C42E60008943C /* FormViewFix2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E1E255C42E60008943C /* FormViewFix2.swift */; };
+		FC5B1E26255C42EE0008943C /* NoFormViewFix1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1E25255C42EE0008943C /* NoFormViewFix1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5B1DE7255C41A70008943C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC31F072551B04D00075E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5B1DD0255C41A50008943C;
+			remoteInfo = KeyboardDismissalInSwiftUI;
+		};
+		FC5B1DF2255C41A70008943C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC31F072551B04D00075E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5B1DD0255C41A50008943C;
+			remoteInfo = KeyboardDismissalInSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC5B1DD1255C41A50008943C /* KeyboardDismissalInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardDismissalInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5B1DD3255C41A50008943C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5B1DD5255C41A50008943C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC5B1DD9255C41A60008943C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5B1DDC255C41A60008943C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC5B1DDF255C41A60008943C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC5B1DE1255C41A60008943C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5B1DE6255C41A70008943C /* KeyboardDismissalInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardDismissalInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5B1DEA255C41A70008943C /* KeyboardDismissalInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissalInSwiftUITests.swift; sourceTree = "<group>"; };
+		FC5B1DEC255C41A70008943C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5B1DF1255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardDismissalInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5B1DF5255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissalInSwiftUIUITests.swift; sourceTree = "<group>"; };
+		FC5B1DF7255C41A70008943C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5B1E10255C42C50008943C /* UIApplication+addTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+addTapGestureRecognizer.swift"; sourceTree = "<group>"; };
+		FC5B1E11255C42C50008943C /* View+hideKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+hideKeyboard.swift"; sourceTree = "<group>"; };
+		FC5B1E17255C42D40008943C /* AppTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		FC5B1E1C255C42E60008943C /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		FC5B1E1D255C42E60008943C /* FormViewFix1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewFix1.swift; sourceTree = "<group>"; };
+		FC5B1E1E255C42E60008943C /* FormViewFix2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewFix2.swift; sourceTree = "<group>"; };
+		FC5B1E25255C42EE0008943C /* NoFormViewFix1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoFormViewFix1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5B1DCE255C41A50008943C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DE3255C41A70008943C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DEE255C41A70008943C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5B1DD2255C41A50008943C /* KeyboardDismissalInSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1E2D255C437F0008943C /* Extensions */,
+				FC5B1E2E255C43B40008943C /* Views */,
+				FC5B1DD3255C41A50008943C /* AppDelegate.swift */,
+				FC5B1DD5255C41A50008943C /* SceneDelegate.swift */,
+				FC5B1DD9255C41A60008943C /* Assets.xcassets */,
+				FC5B1DDE255C41A60008943C /* LaunchScreen.storyboard */,
+				FC5B1DE1255C41A60008943C /* Info.plist */,
+				FC5B1DDB255C41A60008943C /* Preview Content */,
+			);
+			path = KeyboardDismissalInSwiftUI;
+			sourceTree = "<group>";
+		};
+		FC5B1DDB255C41A60008943C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1DDC255C41A60008943C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC5B1DE9255C41A70008943C /* KeyboardDismissalInSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1DEA255C41A70008943C /* KeyboardDismissalInSwiftUITests.swift */,
+				FC5B1DEC255C41A70008943C /* Info.plist */,
+			);
+			path = KeyboardDismissalInSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FC5B1DF4255C41A70008943C /* KeyboardDismissalInSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1DF5255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.swift */,
+				FC5B1DF7255C41A70008943C /* Info.plist */,
+			);
+			path = KeyboardDismissalInSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FC5B1E2D255C437F0008943C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1E10255C42C50008943C /* UIApplication+addTapGestureRecognizer.swift */,
+				FC5B1E11255C42C50008943C /* View+hideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC5B1E2E255C43B40008943C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1E17255C42D40008943C /* AppTabView.swift */,
+				FC5B1E1C255C42E60008943C /* FormView.swift */,
+				FC5B1E25255C42EE0008943C /* NoFormViewFix1.swift */,
+				FC5B1E1D255C42E60008943C /* FormViewFix1.swift */,
+				FC5B1E1E255C42E60008943C /* FormViewFix2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCC31F062551B04D00075E96 = {
+			isa = PBXGroup;
+			children = (
+				FC5B1DD2255C41A50008943C /* KeyboardDismissalInSwiftUI */,
+				FC5B1DE9255C41A70008943C /* KeyboardDismissalInSwiftUITests */,
+				FC5B1DF4255C41A70008943C /* KeyboardDismissalInSwiftUIUITests */,
+				FCC31F102551B04D00075E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC31F102551B04D00075E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1DD1255C41A50008943C /* KeyboardDismissalInSwiftUI.app */,
+				FC5B1DE6255C41A70008943C /* KeyboardDismissalInSwiftUITests.xctest */,
+				FC5B1DF1255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5B1DD0255C41A50008943C /* KeyboardDismissalInSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5B1DF8255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUI" */;
+			buildPhases = (
+				FC5B1DCD255C41A50008943C /* Sources */,
+				FC5B1DCE255C41A50008943C /* Frameworks */,
+				FC5B1DCF255C41A50008943C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardDismissalInSwiftUI;
+			productName = KeyboardDismissalInSwiftUI;
+			productReference = FC5B1DD1255C41A50008943C /* KeyboardDismissalInSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC5B1DE5255C41A70008943C /* KeyboardDismissalInSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5B1DFB255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUITests" */;
+			buildPhases = (
+				FC5B1DE2255C41A70008943C /* Sources */,
+				FC5B1DE3255C41A70008943C /* Frameworks */,
+				FC5B1DE4255C41A70008943C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5B1DE8255C41A70008943C /* PBXTargetDependency */,
+			);
+			name = KeyboardDismissalInSwiftUITests;
+			productName = KeyboardDismissalInSwiftUITests;
+			productReference = FC5B1DE6255C41A70008943C /* KeyboardDismissalInSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC5B1DF0255C41A70008943C /* KeyboardDismissalInSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5B1DFE255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUIUITests" */;
+			buildPhases = (
+				FC5B1DED255C41A70008943C /* Sources */,
+				FC5B1DEE255C41A70008943C /* Frameworks */,
+				FC5B1DEF255C41A70008943C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5B1DF3255C41A70008943C /* PBXTargetDependency */,
+			);
+			name = KeyboardDismissalInSwiftUIUITests;
+			productName = KeyboardDismissalInSwiftUIUITests;
+			productReference = FC5B1DF1255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC31F072551B04D00075E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FC5B1DD0255C41A50008943C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FC5B1DE5255C41A70008943C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FC5B1DD0255C41A50008943C;
+					};
+					FC5B1DF0255C41A70008943C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FC5B1DD0255C41A50008943C;
+					};
+				};
+			};
+			buildConfigurationList = FCC31F0A2551B04D00075E96 /* Build configuration list for PBXProject "KeyboardDismissalInSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC31F062551B04D00075E96;
+			productRefGroup = FCC31F102551B04D00075E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5B1DD0255C41A50008943C /* KeyboardDismissalInSwiftUI */,
+				FC5B1DE5255C41A70008943C /* KeyboardDismissalInSwiftUITests */,
+				FC5B1DF0255C41A70008943C /* KeyboardDismissalInSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5B1DCF255C41A50008943C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5B1DE0255C41A60008943C /* LaunchScreen.storyboard in Resources */,
+				FC5B1DDD255C41A60008943C /* Preview Assets.xcassets in Resources */,
+				FC5B1DDA255C41A60008943C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DE4255C41A70008943C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DEF255C41A70008943C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5B1DCD255C41A50008943C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5B1E26255C42EE0008943C /* NoFormViewFix1.swift in Sources */,
+				FC5B1E18255C42D40008943C /* AppTabView.swift in Sources */,
+				FC5B1E21255C42E60008943C /* FormViewFix2.swift in Sources */,
+				FC5B1E13255C42C50008943C /* View+hideKeyboard.swift in Sources */,
+				FC5B1E1F255C42E60008943C /* FormView.swift in Sources */,
+				FC5B1E12255C42C50008943C /* UIApplication+addTapGestureRecognizer.swift in Sources */,
+				FC5B1E20255C42E60008943C /* FormViewFix1.swift in Sources */,
+				FC5B1DD4255C41A50008943C /* AppDelegate.swift in Sources */,
+				FC5B1DD6255C41A50008943C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DE2255C41A70008943C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5B1DEB255C41A70008943C /* KeyboardDismissalInSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5B1DED255C41A70008943C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5B1DF6255C41A70008943C /* KeyboardDismissalInSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5B1DE8255C41A70008943C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5B1DD0255C41A50008943C /* KeyboardDismissalInSwiftUI */;
+			targetProxy = FC5B1DE7255C41A70008943C /* PBXContainerItemProxy */;
+		};
+		FC5B1DF3255C41A70008943C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5B1DD0255C41A50008943C /* KeyboardDismissalInSwiftUI */;
+			targetProxy = FC5B1DF2255C41A70008943C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5B1DDE255C41A60008943C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5B1DDF255C41A60008943C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5B1DF9255C41A70008943C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyboardDismissalInSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5B1DFA255C41A70008943C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyboardDismissalInSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC5B1DFC255C41A70008943C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardDismissalInSwiftUI.app/KeyboardDismissalInSwiftUI";
+			};
+			name = Debug;
+		};
+		FC5B1DFD255C41A70008943C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardDismissalInSwiftUI.app/KeyboardDismissalInSwiftUI";
+			};
+			name = Release;
+		};
+		FC5B1DFF255C41A70008943C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardDismissalInSwiftUI;
+			};
+			name = Debug;
+		};
+		FC5B1E00255C41A70008943C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULYJ4WCBG7;
+				INFOPLIST_FILE = KeyboardDismissalInSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DabblingBadger.KeyboardDismissalInSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyboardDismissalInSwiftUI;
+			};
+			name = Release;
+		};
+		FCC31F372551B05400075E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC31F382551B05400075E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5B1DF8255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5B1DF9255C41A70008943C /* Debug */,
+				FC5B1DFA255C41A70008943C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5B1DFB255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5B1DFC255C41A70008943C /* Debug */,
+				FC5B1DFD255C41A70008943C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5B1DFE255C41A70008943C /* Build configuration list for PBXNativeTarget "KeyboardDismissalInSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5B1DFF255C41A70008943C /* Debug */,
+				FC5B1E00255C41A70008943C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC31F0A2551B04D00075E96 /* Build configuration list for PBXProject "KeyboardDismissalInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC31F372551B05400075E96 /* Debug */,
+				FCC31F382551B05400075E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC31F072551B04D00075E96 /* Project object */;
+}
